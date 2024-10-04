@@ -7,7 +7,7 @@ pipeline {
                
                 sh '''
                 python3 -m venv mlip
-                source mlip/bin/activate
+                . mlip/bin/activate
                 pip install pytest numpy pandas scikit-learn
 
                 '''
