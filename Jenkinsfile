@@ -19,7 +19,7 @@ pipeline {
             steps {
 
                 sh '''
-                source mlip/bin/activate
+                . mlip/bin/activate
                 pytest
                 
                 '''
